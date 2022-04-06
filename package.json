@@ -1,12 +1,19 @@
 {
   "name": "node-static",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "For learning purposes",
+  "main": "src/app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Rodolfo Robles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
 }
